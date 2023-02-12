@@ -28,5 +28,23 @@ def p2():
                   </body>
                 </html>"""
 
+@app.route('/promotion')
+def p3():
+
+    return """<!doctype html>
+                <html lang="en">
+                  <head>
+                    <meta charset="utf-8">
+                  </head>
+                  <body>
+                    <b>Человечество вырастает из детства.</b>
+                    <br><b>Человечеству мала одна планета.</b>
+                    <br><b>Мы сделаем обитаемыми безжизненные пока планеты.</b>
+                    <br><b>И начнем с Марса!</b>
+                    <br><b>Присоединяйся!</b>
+                    
+                  </body>
+                </html>"""
+
 app.run(debug=True, port=8080)
 
