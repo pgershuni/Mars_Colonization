@@ -46,5 +46,21 @@ def p3():
                   </body>
                 </html>"""
 
+
+@app.route('/image_mars')
+def image_mars():
+    return """<!doctype html>
+                <html lang="en">
+                  <head>
+                    <meta charset="utf-8">
+                  </head>
+                  <body>
+                    <h1>Жди нас, Марс</h1>
+                    <img src="data/mars.jpg">
+                    <br>Вот она какая, красная планета!
+
+                  </body>
+                </html>"""
+
 app.run(debug=True, port=8080)
 
